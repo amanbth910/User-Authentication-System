@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Forgot Password</title>
+
+<link rel="stylesheet" href="forgot.css">
+
+</head>
+
+
+<body>
+
+
+<div class="forgot-container">
+
+
+<div class="forgot-box">
+
+
+<h2>Forgot Password</h2>
+
+
+<p class="text">
+Enter your Gmail or Mobile Number
+</p>
+
+
+<form>
+
+
+<div class="input-box">
+
+<input type="text" id="identifier" required>
+
+<label>Email or Mobile Number</label>
+
+</div>
+
+
+
+<button type="button" id="sendOtpBtn">Send OTP</button>
+
+
+
+<div class="otp-section">
+
+
+<div class="input-box">
+
+<input type="text" id="otp" maxlength="6" required>
+
+<label>Enter OTP (6 Digit)</label>
+
+</div>
+
+
+
+<button type="button" id="verifyOtpBtn">Verify OTP</button>
+
+
+</div>
+
+
+
+<p class="login">
+
+Remember password?
+
+<a href="../login page/index.html">
+Login
+</a>
+
+
+</p>
+<div id="resetSection">
+
+    <div class="input-box">
+        <input type="password" id="newPassword" required>
+        <label>New Password</label>
+    </div>
+
+    <button type="button" id="resetPasswordBtn">
+        Reset Password
+    </button>
+
+</div>
+
+</form>
+
+
+</div>
+
+
+</div>
+
+<script src="forgot.js"></script>
+
+
+</body>
+
+</html>
